@@ -1,6 +1,6 @@
 import 'package:dart_eval/dart_eval_bridge.dart';
 import 'package:flutter_map_eval/http/src/http.dart';
-import 'functions.dart';
+import 'src/functions.dart';
 import 'src/base_request.eval.dart';
 import 'src/base_response.eval.dart';
 import 'src/byte_stream.eval.dart';

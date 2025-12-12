@@ -3,7 +3,7 @@ import 'package:dart_eval/stdlib/core.dart';
 import 'package:dart_eval/stdlib/typed_data.dart';
 import 'package:http/http.dart';
 
-import 'src/response.eval.dart';
+import 'response.eval.dart';
 
 void configureFunctionsForCompile(BridgeDeclarationRegistry registry) {
   registry.defineBridgeTopLevelFunction(

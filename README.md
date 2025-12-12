@@ -1,10 +1,12 @@
 A set of eval plugins for the [dart_eval](https://pub.dev/packages/dart_eval) interpreter.
 Includes:
 
+* [logging]()
 * [http]()
-* [sqflite]()
+* [sqflite]()\*
 * [share_plus]()\*
 * [url_launcher]()\*
+* [adaptive_dialog]()\*
 * [responsive_grid_list]()\*
 * [flutter_map]()\* with [latlong2]() dependency
 * [flutter_map_geojson2]()\*
