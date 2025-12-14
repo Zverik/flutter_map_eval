@@ -10,7 +10,7 @@ class $Haversine implements $Instance {
   /// Configure this class for use in a [Runtime]
   static void configureForRuntime(Runtime runtime) {
     runtime.registerBridgeFunc(
-      'package:latlong2/latlong/calculator/Haversine.dart',
+      'package:latlong2/latlong.dart',
       'Haversine.',
       $Haversine.$new,
     );
@@ -18,7 +18,7 @@ class $Haversine implements $Instance {
 
   /// Compile-time type specification of [$Haversine]
   static const $spec = BridgeTypeSpec(
-    'package:latlong2/latlong/calculator/Haversine.dart',
+    'package:latlong2/latlong.dart',
     'Haversine',
   );
 

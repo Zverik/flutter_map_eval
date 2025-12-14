@@ -15,7 +15,7 @@ class $DistanceCalculator$bridge extends DistanceCalculator
 
   /// Compile-time type specification of [$DistanceCalculator$bridge]
   static const $spec = BridgeTypeSpec(
-    'package:latlong2/latlong/interfaces.dart',
+    'package:latlong2/latlong.dart',
     'DistanceCalculator',
   );
 
@@ -101,7 +101,7 @@ class $DistanceCalculator implements $Instance {
 
   /// Compile-time type specification of [$DistanceCalculator]
   static const $spec = BridgeTypeSpec(
-    'package:latlong2/latlong/interfaces.dart',
+    'package:latlong2/latlong.dart',
     'DistanceCalculator',
   );
 

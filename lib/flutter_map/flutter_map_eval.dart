@@ -22,6 +22,27 @@ import 'src/map/map_controller.eval.dart';
 import 'src/map/options.eval.dart';
 import 'src/map/widget.eval.dart';
 
+export 'src/geo/latlng_bounds.eval.dart';
+export 'src/gestures/interactive_flag.eval.dart';
+export 'src/gestures/map_events.eval.dart';
+export 'src/gestures/positioned_tap_detector_2.eval.dart';
+export 'src/layer/circle_layer.eval.dart';
+export 'src/layer/circle_marker.eval.dart';
+export 'src/layer/layer_hit_result.eval.dart';
+export 'src/layer/marker.eval.dart';
+export 'src/layer/marker_layer.eval.dart';
+export 'src/layer/mobile_layer_transformer.eval.dart';
+export 'src/layer/scalebar.eval.dart';
+export 'src/map/camera.eval.dart';
+export 'src/map/camera_constraint.eval.dart';
+export 'src/map/camera_fit.eval.dart';
+export 'src/map/cursor_keyboard_rotation.eval.dart';
+export 'src/map/interaction.eval.dart';
+export 'src/map/keyboard.eval.dart';
+export 'src/map/map_controller.eval.dart';
+export 'src/map/options.eval.dart';
+export 'src/map/widget.eval.dart';
+
 /// [EvalPlugin] for flutter_map
 class FlutterMapPlugin implements EvalPlugin {
   @override
@@ -78,6 +99,7 @@ class FlutterMapPlugin implements EvalPlugin {
     registry.addSource(
       DartSource('package:flutter_map/flutter_map.dart', flutterMapSource),
     );
+    registry.addExportedLibraryMapping('package:flutter_map/src', 'package:flutter_map');
   }
 
   @override

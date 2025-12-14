@@ -11,13 +11,13 @@ class $Distance implements $Instance {
   /// Configure this class for use in a [Runtime]
   static void configureForRuntime(Runtime runtime) {
     runtime.registerBridgeFunc(
-      'package:latlong2/latlong/Distance.dart',
+      'package:latlong2/latlong.dart',
       'Distance.',
       $Distance.$new,
     );
 
     runtime.registerBridgeFunc(
-      'package:latlong2/latlong/Distance.dart',
+      'package:latlong2/latlong.dart',
       'Distance.withRadius',
       $Distance.$withRadius,
     );
@@ -25,7 +25,7 @@ class $Distance implements $Instance {
 
   /// Compile-time type specification of [$Distance]
   static const $spec = BridgeTypeSpec(
-    'package:latlong2/latlong/Distance.dart',
+    'package:latlong2/latlong.dart',
     'Distance',
   );
 
@@ -306,13 +306,13 @@ class $DistanceVincenty implements $Instance {
   /// Configure this class for use in a [Runtime]
   static void configureForRuntime(Runtime runtime) {
     runtime.registerBridgeFunc(
-      'package:latlong2/latlong/Distance.dart',
+      'package:latlong2/latlong.dart',
       'DistanceVincenty.',
       $DistanceVincenty.$new,
     );
 
     runtime.registerBridgeFunc(
-      'package:latlong2/latlong/Distance.dart',
+      'package:latlong2/latlong.dart',
       'DistanceVincenty.withRadius',
       $DistanceVincenty.$withRadius,
     );
@@ -320,7 +320,7 @@ class $DistanceVincenty implements $Instance {
 
   /// Compile-time type specification of [$DistanceVincenty]
   static const $spec = BridgeTypeSpec(
-    'package:latlong2/latlong/Distance.dart',
+    'package:latlong2/latlong.dart',
     'DistanceVincenty',
   );
 
@@ -428,13 +428,13 @@ class $DistanceHaversine implements $Instance {
   /// Configure this class for use in a [Runtime]
   static void configureForRuntime(Runtime runtime) {
     runtime.registerBridgeFunc(
-      'package:latlong2/latlong/Distance.dart',
+      'package:latlong2/latlong.dart',
       'DistanceHaversine.',
       $DistanceHaversine.$new,
     );
 
     runtime.registerBridgeFunc(
-      'package:latlong2/latlong/Distance.dart',
+      'package:latlong2/latlong.dart',
       'DistanceHaversine.withRadius',
       $DistanceHaversine.$withRadius,
     );
@@ -442,7 +442,7 @@ class $DistanceHaversine implements $Instance {
 
   /// Compile-time type specification of [$DistanceHaversine]
   static const $spec = BridgeTypeSpec(
-    'package:latlong2/latlong/Distance.dart',
+    'package:latlong2/latlong.dart',
     'DistanceHaversine',
   );
 

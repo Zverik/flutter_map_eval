@@ -31,3 +31,4 @@ migrate_working_dir/
 /coverage/
 
 /tmp/
+flutter_map_eval.json

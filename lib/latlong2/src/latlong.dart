@@ -3,14 +3,9 @@ library latlong2;
 
 import 'dart:math' as math;
 
-export 'latlong/interfaces.dart';
-
-export 'latlong/calculator/Haversine.dart';
-export 'latlong/calculator/Vincenty.dart';
-
-export 'latlong/Distance.dart';
-export 'latlong/LatLng.dart';
-export 'latlong/LengthUnit.dart';
+// All sub-libraries are "parts", so the natural resolution won't work.
+// Hence not exporting, but just marking those as existing in this
+// library root.
 
 const double equatorRadius = 6378137.0;
 

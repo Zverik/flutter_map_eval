@@ -10,7 +10,7 @@ class $Vincenty implements $Instance {
   /// Configure this class for use in a [Runtime]
   static void configureForRuntime(Runtime runtime) {
     runtime.registerBridgeFunc(
-      'package:latlong2/latlong/calculator/Vincenty.dart',
+      'package:latlong2/latlong.dart',
       'Vincenty.',
       $Vincenty.$new,
     );
@@ -18,7 +18,7 @@ class $Vincenty implements $Instance {
 
   /// Compile-time type specification of [$Vincenty]
   static const $spec = BridgeTypeSpec(
-    'package:latlong2/latlong/calculator/Vincenty.dart',
+    'package:latlong2/latlong.dart',
     'Vincenty',
   );
 

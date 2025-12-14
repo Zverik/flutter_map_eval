@@ -1,5 +1,5 @@
 import 'package:dart_eval/dart_eval_bridge.dart';
-import 'package:flutter_map_eval/http/src/http.dart';
+import 'src/http.dart';
 import 'src/functions.dart';
 import 'src/base_request.eval.dart';
 import 'src/base_response.eval.dart';
@@ -9,6 +9,15 @@ import 'src/exception.eval.dart';
 import 'src/request.eval.dart';
 import 'src/response.eval.dart';
 import 'src/streamed_response.eval.dart';
+
+export 'src/base_request.eval.dart';
+export 'src/base_response.eval.dart';
+export 'src/byte_stream.eval.dart';
+export 'src/client.eval.dart';
+export 'src/exception.eval.dart';
+export 'src/request.eval.dart';
+export 'src/response.eval.dart';
+export 'src/streamed_response.eval.dart';
 
 /// [EvalPlugin] for http
 class HttpPlugin implements EvalPlugin {
@@ -29,6 +38,7 @@ class HttpPlugin implements EvalPlugin {
     registry.addSource(
       DartSource('package:http/http.dart', httpSource),
     );
+    registry.addExportedLibraryMapping('package:http/src', 'package:http');
   }
 
   @override

@@ -7,19 +7,19 @@ class $LatLng implements LatLng, $Instance {
   /// Configure this class for use in a [Runtime]
   static void configureForRuntime(Runtime runtime) {
     runtime.registerBridgeFunc(
-      'package:latlong2/latlong/LatLng.dart',
+      'package:latlong2/latlong.dart',
       'LatLng.',
       $LatLng.$new,
     );
 
     runtime.registerBridgeFunc(
-      'package:latlong2/latlong/LatLng.dart',
+      'package:latlong2/latlong.dart',
       'LatLng.fromJson',
       $LatLng.$fromJson,
     );
 
     runtime.registerBridgeFunc(
-      'package:latlong2/latlong/LatLng.dart',
+      'package:latlong2/latlong.dart',
       'LatLng.fromSexagesimal',
       $LatLng.$fromSexagesimal,
     );
@@ -27,7 +27,7 @@ class $LatLng implements LatLng, $Instance {
 
   /// Compile-time type specification of [$LatLng]
   static const $spec = BridgeTypeSpec(
-    'package:latlong2/latlong/LatLng.dart',
+    'package:latlong2/latlong.dart',
     'LatLng',
   );
 

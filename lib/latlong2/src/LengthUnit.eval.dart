@@ -7,37 +7,37 @@ class $LengthUnit implements $Instance {
   /// Configure this class for use in a [Runtime]
   static void configureForRuntime(Runtime runtime) {
     runtime.registerBridgeFunc(
-      'package:latlong2/latlong/LengthUnit.dart',
+      'package:latlong2/latlong.dart',
       'LengthUnit.',
       $LengthUnit.$new,
     );
 
     runtime.registerBridgeFunc(
-      'package:latlong2/latlong/LengthUnit.dart',
+      'package:latlong2/latlong.dart',
       'LengthUnit.Millimeter*g',
       $LengthUnit.$Millimeter,
     );
 
     runtime.registerBridgeFunc(
-      'package:latlong2/latlong/LengthUnit.dart',
+      'package:latlong2/latlong.dart',
       'LengthUnit.Centimeter*g',
       $LengthUnit.$Centimeter,
     );
 
     runtime.registerBridgeFunc(
-      'package:latlong2/latlong/LengthUnit.dart',
+      'package:latlong2/latlong.dart',
       'LengthUnit.Meter*g',
       $LengthUnit.$Meter,
     );
 
     runtime.registerBridgeFunc(
-      'package:latlong2/latlong/LengthUnit.dart',
+      'package:latlong2/latlong.dart',
       'LengthUnit.Kilometer*g',
       $LengthUnit.$Kilometer,
     );
 
     runtime.registerBridgeFunc(
-      'package:latlong2/latlong/LengthUnit.dart',
+      'package:latlong2/latlong.dart',
       'LengthUnit.Mile*g',
       $LengthUnit.$Mile,
     );
@@ -45,7 +45,7 @@ class $LengthUnit implements $Instance {
 
   /// Compile-time type specification of [$LengthUnit]
   static const $spec = BridgeTypeSpec(
-    'package:latlong2/latlong/LengthUnit.dart',
+    'package:latlong2/latlong.dart',
     'LengthUnit',
   );
 

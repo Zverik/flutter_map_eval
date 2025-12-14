@@ -8,6 +8,13 @@ import 'src/LatLng.eval.dart';
 import 'src/Vincenty.eval.dart';
 import 'src/interfaces.eval.dart';
 
+export 'src/LengthUnit.eval.dart';
+export 'src/Distance.eval.dart';
+export 'src/Haversine.eval.dart';
+export 'src/LatLng.eval.dart';
+export 'src/Vincenty.eval.dart';
+export 'src/interfaces.eval.dart';
+
 class LatLong2Plugin implements EvalPlugin {
   @override
   String get identifier => 'package:latlong2';
@@ -26,6 +33,7 @@ class LatLong2Plugin implements EvalPlugin {
     registry.addSource(
       DartSource('package:latlong2/latlong.dart', latlongSource),
     );
+    registry.addExportedLibraryMapping('package:latlong2', 'package:latlong2');
   }
 
   @override
