@@ -15,7 +15,10 @@ class SqflitePlugin implements EvalPlugin {
     registry.defineBridgeClass($QueryCursor.$declaration);
     registry.defineBridgeEnum($ConflictAlgorithm.$declaration);
     configureFunctionsForCompile(registry);
-    registry.addExportedLibraryMapping('package:sqflite', 'package:sqflite');
+    registry.addExportedLibraryMapping(
+      'package:sqflite',
+      'package:flutter_map_eval/sqflite/sqflite_eval.dart',
+    );
   }
 
   @override

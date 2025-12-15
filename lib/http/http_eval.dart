@@ -35,10 +35,11 @@ class HttpPlugin implements EvalPlugin {
     registry.defineBridgeClass($Response.$declaration);
     registry.defineBridgeClass($StreamedResponse.$declaration);
     configureFunctionsForCompile(registry);
-    registry.addSource(
-      DartSource('package:http/http.dart', httpSource),
+    registry.addSource(DartSource('package:http/http.dart', httpSource));
+    registry.addExportedLibraryMapping(
+      'package:http/src',
+      'package:flutter_map_eval/http/http_eval.dart',
     );
-    registry.addExportedLibraryMapping('package:http/src', 'package:http');
   }
 
   @override

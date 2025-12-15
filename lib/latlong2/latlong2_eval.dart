@@ -33,7 +33,10 @@ class LatLong2Plugin implements EvalPlugin {
     registry.addSource(
       DartSource('package:latlong2/latlong.dart', latlongSource),
     );
-    registry.addExportedLibraryMapping('package:latlong2', 'package:latlong2');
+    registry.addExportedLibraryMapping(
+      'package:latlong2',
+      'package:flutter_map_eval/latlong2/latlong2_eval.dart',
+    );
   }
 
   @override

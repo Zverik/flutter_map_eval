@@ -99,7 +99,10 @@ class FlutterMapPlugin implements EvalPlugin {
     registry.addSource(
       DartSource('package:flutter_map/flutter_map.dart', flutterMapSource),
     );
-    registry.addExportedLibraryMapping('package:flutter_map/src', 'package:flutter_map');
+    registry.addExportedLibraryMapping(
+      'package:flutter_map/src',
+      'package:flutter_map_eval/flutter_map/flutter_map_eval.dart',
+    );
   }
 
   @override

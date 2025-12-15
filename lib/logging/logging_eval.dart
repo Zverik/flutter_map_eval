@@ -22,7 +22,10 @@ class LoggingPlugin implements EvalPlugin {
     registry.addSource(
       DartSource('package:logging/logging.dart', loggingSource),
     );
-    registry.addExportedLibraryMapping('package:logging/src', 'package:logging');
+    registry.addExportedLibraryMapping(
+      'package:logging/src',
+      'package:flutter_map_eval/logging/logging_eval.dart',
+    );
   }
 
   @override
