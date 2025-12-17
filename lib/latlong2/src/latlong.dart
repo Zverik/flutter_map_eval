@@ -21,8 +21,8 @@ double degToRadian(final double deg) => deg * (pi / 180.0);
 
 double radianToDeg(final double rad) => rad * (180.0 / pi);
 
-double round(final double value, {final int decimals = 6}) =>
-    (value * math.pow(10, decimals)).round() / math.pow(10, decimals);
+//double round(final double value, {final int decimals = 6}) =>
+//    (value * math.pow(10, decimals)).round() / math.pow(10, decimals);
 
 double normalizeBearing(final double bearing) => (bearing + 360) % 360;
 
