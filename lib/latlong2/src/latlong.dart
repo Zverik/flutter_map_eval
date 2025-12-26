@@ -15,7 +15,7 @@ const double flattening = 1 / 298.257223563;
 
 const double earthRadius = equatorRadius;
 
-const double pi = math.pi;
+const double pi = 3.1415926536; // math.pi;
 
 double degToRadian(final double deg) => deg * (pi / 180.0);
 
