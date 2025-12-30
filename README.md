@@ -3,13 +3,15 @@ Includes:
 
 * [logging]()
 * [http]()
+* [latlong2]()
+* [country_coder]()
 * [sqflite]()\*
-* [share_plus]()\*
-* [url_launcher]()\*
-* [adaptive_dialog]()\*
-* [responsive_grid_list]()\*
-* [flutter_map]()\* with [latlong2]() dependency
-* [flutter_map_geojson2]()\*
+* [share_plus]()\* (TODO)
+* [url_launcher]()\* (TODO)
+* [adaptive_dialog]()\* (TODO)
+* [responsive_grid_list]()\* (TODO)
+* [flutter_map]()\*
+* [flutter_map_geojson2]()\* (TODO)
 
 Plugins marked with "\*" require the [flutter_eval]() bindings. This entire package also depends
 on Flutter, so splitting it to work with plain Dart might pose a challenge.
