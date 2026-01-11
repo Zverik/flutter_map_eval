@@ -6,6 +6,10 @@ import 'http/http_eval.dart';
 import 'latlong2/latlong2_eval.dart';
 import 'logging/logging_eval.dart';
 import 'country_coder/country_coder_eval.dart';
+import 'url_launcher/url_launcher_eval.dart';
+import 'adaptive_dialog/adaptive_dialog_eval.dart';
+import 'flutter_map_geojson2/flutter_map_geojson2.dart';
+import 'responsive_grid_list/responsive_grid_list_eval.dart';
 
 export 'http/http_eval.dart';
 export 'latlong2/latlong2_eval.dart';
@@ -17,6 +21,7 @@ export 'share_plus/share_plus_eval.dart';
 export 'sqflite/sqflite_eval.dart';
 export 'url_launcher/url_launcher_eval.dart';
 export 'country_coder/country_coder_eval.dart';
+export 'adaptive_dialog/adaptive_dialog_eval.dart';
 
 final plugins = [
   LatLong2Plugin(),
@@ -25,4 +30,8 @@ final plugins = [
   FlutterMapPlugin(),
   SqflitePlugin(),
   CountryCoderPlugin(),
+  UrlLauncherPlugin(),
+  AdaptiveDialogPlugin(),
+  ResponsiveGridListPlugin(),
+  FlutterMapGeojsonPlugin(),
 ];

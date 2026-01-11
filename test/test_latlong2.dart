@@ -97,5 +97,6 @@ void main() {
 
     final result = runtime.executeLib('package:example/main.dart', 'main');
     expect(result, $double(422592.0));
+    // CompileError: Bridge class Haversine is a wrapper, not a bridge, so you can't extend it at unknown (file package:example/main.dart)
   }, skip: true);
 }
