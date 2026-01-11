@@ -2,7 +2,6 @@ import 'package:dart_eval/dart_eval_bridge.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_eval/foundation.dart';
 import 'package:flutter_map/flutter_map.dart';
-import 'package:latlong2/latlong.dart';
 import 'package:flutter_eval/widgets.dart';
 import 'package:dart_eval/stdlib/core.dart';
 import 'package:flutter_eval/painting.dart';

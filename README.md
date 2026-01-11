@@ -1,37 +1,36 @@
+# Flutter Map Eval
+
 A set of eval plugins for the [dart_eval](https://pub.dev/packages/dart_eval) interpreter.
 Includes:
 
-* [logging]()
-* [http]()
-* [latlong2]()
-* [country_coder]()
-* [fast_geohash]() (TODO)
-* [sqflite]()\*
-* [share_plus]()\* (TODO)
-* [url_launcher]()\*
-* [adaptive_dialog]()\*
-* [responsive_grid_list]()\*
-* [flutter_map]()\*
-* [flutter_map_geojson2]()\*
+* [logging](https://pub.dev/packages/logging)
+* [http](https://pub.dev/packages/http)
+* [latlong2](https://pub.dev/packages/latlong2)
+* [country_coder](https://pub.dev/packages/country_coder)
+* [fast_geohash](https://pub.dev/packages/fast_geohash) (TODO)
+* [sqflite](https://pub.dev/packages/sqflite)\*
+* [share_plus](https://pub.dev/packages/share_plus)\* (TODO)
+* [url_launcher](https://pub.dev/packages/url_launcher)\*
+* [adaptive_dialog](https://pub.dev/packages/adaptive_dialog)\*
+* [responsive_grid_list](https://pub.dev/packages/responsive_grid_list)\*
+* [flutter_map](https://pub.dev/packages/flutter_map)\*
+* [flutter_map_geojson2](https://pub.dev/packages/flutter_map_geojson2)\*
 
-Plugins marked with "\*" require the [flutter_eval]() bindings. This entire package also depends
-on Flutter, so splitting it to work with plain Dart might pose a challenge.
+Plugins marked with "\*" require the [flutter_eval](https://pub.dev/packages/flutter_eval) bindings.
+This entire package also depends
+on Flutter, so splitting it to work with plain Dart might pose a challenge. But you can import
+`dart_pkgs_eval.dart` for that.
 
-Seemingly random, those packages are useful for the [Every Door]() OpenStreetMap editor plugins.
+Seemingly random, those packages are useful for the [Every Door](https://every-door.app/)
+OpenStreetMap editor plugins.
 
 ## Usage
 
-Add this package to your dependencies, and do not forget to install the plugins.
+You should know what to do.
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
-```
+See [flutter_eval docs](https://pub.dev/packages/flutter_eval) and do like they do.
+You can find the `flutter_map_eval.json` file for the compiler on the Github Releases page.
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+Maintained by Ilya Zverev and published under the BSD-3 license.

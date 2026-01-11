@@ -1,7 +1,6 @@
 // ignore_for_file: no_leading_underscores_for_local_identifiers
 
 import 'package:dart_eval/dart_eval_bridge.dart';
-import 'package:flutter/gestures.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_eval/foundation.dart';
 import 'package:dart_eval/stdlib/core.dart';
